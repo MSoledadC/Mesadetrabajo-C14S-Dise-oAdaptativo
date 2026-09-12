@@ -10,7 +10,7 @@ body {
 }
 
 .top-nav {
-    background-color: #1CD1B0;
+    background-color: #D1891C;
     padding: 10px;
     font-size: 15px;
     font-weight: 400;
@@ -31,6 +31,7 @@ h1 {
     padding-top: 28px;
     padding-bottom: 26px;
     background-color: #00669F;
+    color: #FFFFFF;
 }
 
 
@@ -44,6 +45,12 @@ h2 {
 section {
     text-align: center;
     width: 100%;
+}
+
+.contenedor-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -101,7 +108,7 @@ section {
     position: absolute;
     top: 16px;
     left: 21px;
-    width: 30px;
+    font-size: 24px;
 }
 
 .boton-vermas {
@@ -117,14 +124,30 @@ section {
 }
 
 footer {
-    text-align: left;
     background-color: #005677;
-    color: #FFFFFF;
-    padding: 20px;
     width: 100%;
-    margin-top: 45px;
+    padding: 30px 0;
 }
 
+.pie-pagina {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 
+.pie-pagina span {
+    width: 100%;
+    text-align: center;
+    color: #FFF9F9;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pie-pagina img {
+    position: absolute;
+    right: 30px;
+    width: 130px;
+}
 
 /*   */

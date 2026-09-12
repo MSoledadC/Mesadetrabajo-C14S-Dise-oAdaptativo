@@ -43,7 +43,6 @@ h2 {
 }
 
 section {
-    text-align: center;
     width: 100%;
 }
 
@@ -51,17 +50,18 @@ section {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 50px auto;
+    padding: 0 15px;
 }
 
 .card {
-    display: inline-block;
-    vertical-align: top;
     width: 300px;
     box-shadow: 0px 4px 4px 0px #00000040;
     position: relative;
-    margin: 50px 30px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+    background-color: #F3F3F3;
+    margin: 20px 15px;
 }
 
 .card-encabezado {
@@ -72,7 +72,7 @@ section {
 .img-fondo-card {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    width: 300px;
+    width: 100%;
     height: 194px;
     object-fit: cover;
 }
@@ -101,6 +101,9 @@ section {
     padding: 10px;
     margin-bottom: 20px;
     text-align: left;
+    height: 220px;
+    /* Con 220px entra todo el texto de la Mujer Maravilla sin recortar */
+    overflow: visible;
 }
 
 .icon {
@@ -119,7 +122,6 @@ section {
     display: inline-block;
     text-decoration: none;
     width: 128.78px;
-    height: 48.52px;
     line-height: 48.52px;
 }
 

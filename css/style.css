@@ -123,6 +123,15 @@ section {
     line-height: 48.52px;
 }
 
+.toptop {
+    display: inline-block;
+    position: fixed;
+    bottom: 90px;
+    right: 10px;
+    color: #00669F;
+    font-size: 50px;
+}
+
 footer {
     background-color: #005677;
     width: 100%;

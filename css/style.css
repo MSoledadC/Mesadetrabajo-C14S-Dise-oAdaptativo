@@ -161,4 +161,35 @@ footer {
     width: 130px;
 }
 
-/*   */
+/* Tablets  */
+
+@media (max-width: 768px) {
+    .pie-pagina span {
+        font-size: 15px;
+    }
+
+    .pie-pagina img {
+        width: 120px;
+    }
+}
+
+/* Smartphones  */
+
+@media (max-width: 480px) {
+    .pie-pagina span {
+        font-size: 10px;
+    }
+
+    .pie-pagina img {
+        width: 80px;
+        position: inherit;
+    }
+
+    .pie-pagina {
+        padding-left: 10px;
+    }
+
+    .toptop {
+        font-size: 35px;
+    }
+}
